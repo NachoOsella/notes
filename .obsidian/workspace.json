@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "15020826410fdb5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a7a27b2124281d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8308a5da626955d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1er Cuatrimestre/Programación-Datos/Unidad 3.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8a73645638698c01",
+    "type": "split",
+    "children": [
+      {
+        "id": "33c2f2b87fb6f39d",
+        "type": "tabs",
+        "dimension": 43.63256784968685,
+        "children": [
+          {
+            "id": "4b0d09fed335c0ac",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8058b83f415a53c8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f39675b606b7fcef",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "4b3ae51b81588fdc",
+        "type": "tabs",
+        "dimension": 56.36743215031315,
+        "children": [
+          {
+            "id": "e268c9e034c7c9d4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1er Cuatrimestre/Programación-Datos/Unidad 3.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4eb9609fc85340f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "40f797088ce7d56f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b1564e1be8c9683",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1er Cuatrimestre/Programación-Datos/Unidad 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "621bbd86d7ff1876",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1er Cuatrimestre/Programación-Datos/Unidad 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f7a4b5bb53034f22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e29d12f8e9229dde",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1er Cuatrimestre/Programación-Datos/Unidad 3.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "e8308a5da626955d",
+  "lastOpenFiles": [
+    "1er Cuatrimestre/Programación-Datos/Unidad 3.md~",
+    "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
+    "1er Cuatrimestre/Programación-Datos/Unidad 2.md~",
+    "1er Cuatrimestre/Programación-Datos/Unidad 1.md",
+    "1er Cuatrimestre/Sistemas Operativos/Unidad 1.md",
+    "1er Cuatrimestre/Sistemas Operativos/Tp.md",
+    "1er Cuatrimestre/Programación-Datos/t1 1.0.md",
+    "1er Cuatrimestre/Programación-Datos/tp1.md",
+    "1er Cuatrimestre/Programación-Datos/Unidad 1.md~",
+    "1er Cuatrimestre/Organización Empresarial/pruebas.md",
+    "1er Cuatrimestre/Programación-Lógica/Unidad 1.md",
+    "1er Cuatrimestre/Sistemas Operativos/Unidad 2.md",
+    "1er Cuatrimestre/Sistemas Operativos/Unidad 1.md~",
+    "archivos/Pasted image 20240503121128.png",
+    "2024-04-27.md",
+    "Sin título.canvas",
+    "1er Cuatrimestre/Organización Empresarial/Enunciados U2.md",
+    "Planteo Programación.md",
+    "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
+    "1er Cuatrimestre/Organización Empresarial/Unidad 2.md",
+    "1er Cuatrimestre/Organización Empresarial/TP3.md",
+    "archivos/Pasted image 20240413163220.png",
+    "archivos/Pasted image 20240413163209.png",
+    "1er Cuatrimestre/Organización Empresarial/TP1.md",
+    "archivos/Pasted image 20240410191810.png",
+    "archivos/Pasted image 20240410184021.png",
+    "archivos/Pasted image 20240410183424.png",
+    "archivos/Pasted image 20240410183409.png",
+    "1er Cuatrimestre/Organización Empresarial/TP 2.md",
+    "1er Cuatrimestre/Matemática/Unidad 1.md",
+    "archivos/Diagrama sin título.drawio.png",
+    "archivos/Pasted image 20240320195648.png",
+    "nivelación/Programación/Nivelación/Módulo 4.md",
+    "nivelación/Programación/Nivelación/Módulo 3.md",
+    "nivelación/Programación/Nivelación/Módulo 2.md",
+    "nivelación/Programación/Nivelación/Módulo 1.md",
+    "nivelación/Lab. Computación/Nivelación/Módulo 4.md",
+    "nivelación/Lab. Computación/Nivelación/Módulo 3.md",
+    "nivelación/Lab. Computación/Nivelación/Módulo 2.md",
+    "1er Cuatrimestre/Organización Empresarial",
+    "1er Cuatrimestre/Matemática",
+    "1er Cuatrimestre/Sistemas Operativos",
+    "Sin título",
+    "1er Cuatrimestre/Programación-Lógica",
+    "nivelación",
+    "1er Cuatrimestre/Programación-Datos",
+    "archivos/Pasted image 20240224003447.png",
+    "Sin título 1.canvas"
+  ]
+}

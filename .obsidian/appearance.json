@@ -1,0 +1,16 @@
+{
+  "accentColor": "",
+  "cssTheme": "Material Gruvbox",
+  "nativeMenus": false,
+  "translucency": false,
+  "interfaceFontFamily": "JetBrainsMono Nerd Font,Cascadia Code",
+  "baseFontSize": 20,
+  "textFontFamily": "JetBrainsMono Nerd Font,Cascadia Code",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font,Cascadia Code",
+  "enabledCssSnippets": [
+    "snippets",
+    "notation-colour-blocks"
+  ],
+  "baseFontSizeAction": true,
+  "theme": "obsidian"
+}

@@ -94,5 +94,3 @@ GROUP BY nombre
 HAVING apellido = 'Perez'
 ORDER BY nombre ASC;
 ```
-
-### 5.3

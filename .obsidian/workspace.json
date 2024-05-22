@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1er Cuatrimestre/Programación-Datos/Unidad 3.md",
+                "file": "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
                 "mode": "preview",
                 "source": false
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1er Cuatrimestre/Programación-Datos/Unidad 3.md"
+                "file": "1er Cuatrimestre/Programación-Datos/Unidad 2.md"
               }
             }
           }
@@ -87,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5,
-    "collapsed": true
+    "width": 271.5
   },
   "right": {
     "id": "4eb9609fc85340f7",
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1er Cuatrimestre/Programación-Datos/Unidad 3.md",
+                "file": "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1er Cuatrimestre/Programación-Datos/Unidad 3.md",
+                "file": "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1er Cuatrimestre/Programación-Datos/Unidad 3.md"
+                "file": "1er Cuatrimestre/Programación-Datos/Unidad 2.md"
               }
             }
           }
@@ -166,9 +165,10 @@
   },
   "active": "e8308a5da626955d",
   "lastOpenFiles": [
-    "1er Cuatrimestre/Programación-Datos/Unidad 3.md~",
-    "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
+    "1er Cuatrimestre/Programación-Datos/Unidad 3.md",
     "1er Cuatrimestre/Programación-Datos/Unidad 2.md~",
+    "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
+    "1er Cuatrimestre/Programación-Datos/Unidad 3.md~",
     "1er Cuatrimestre/Programación-Datos/Unidad 1.md",
     "1er Cuatrimestre/Sistemas Operativos/Unidad 1.md",
     "1er Cuatrimestre/Sistemas Operativos/Tp.md",
@@ -204,14 +204,12 @@
     "nivelación/Programación/Nivelación/Módulo 1.md",
     "nivelación/Lab. Computación/Nivelación/Módulo 4.md",
     "nivelación/Lab. Computación/Nivelación/Módulo 3.md",
-    "nivelación/Lab. Computación/Nivelación/Módulo 2.md",
     "1er Cuatrimestre/Organización Empresarial",
     "1er Cuatrimestre/Matemática",
     "1er Cuatrimestre/Sistemas Operativos",
     "Sin título",
     "1er Cuatrimestre/Programación-Lógica",
     "nivelación",
-    "1er Cuatrimestre/Programación-Datos",
     "archivos/Pasted image 20240224003447.png",
     "Sin título 1.canvas"
   ]

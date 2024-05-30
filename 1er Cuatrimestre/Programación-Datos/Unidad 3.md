@@ -1,5 +1,3 @@
-Aquí tienes el resumen completo siguiendo el formato solicitado:
-
 # CONSULTAS SQL
 
 ## 1.0 Introducción
@@ -166,8 +164,5 @@ Funciones comunes incluyen `NOW`, `DATE_ADD`, `DATEDIFF`, `YEAR`, `MONTH`, `DAY`
 Las consultas en SQL son fundamentales para interactuar con bases de datos relacionales. Permiten recuperar, filtrar, ordenar, agrupar y resumir datos, lo que es esencial para el análisis y la gestión de la información.
 
 ### 8.2 Aplicaciones Prácticas
-Las consultas SQL se utilizan en una amplia
+Las consultas SQL se utilizan en una amplia variedad de aplicaciones prácticas, desde la generación de informes y análisis de datos hasta la integración de datos en aplicaciones y la gestión diaria de bases de datos empresariales.
 
- variedad de aplicaciones prácticas, desde la generación de informes y análisis de datos hasta la integración de datos en aplicaciones y la gestión diaria de bases de datos empresariales.
-
-Este resumen debería proporcionarte una guía completa y detallada para estudiar consultas SQL de manera efectiva.

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e8308a5da626955d",
+            "id": "0ee08613b8f40f4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
+                "file": "1er Cuatrimestre/Sistemas Operativos/Trabajo Práctico.md",
                 "mode": "preview",
                 "source": false
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1er Cuatrimestre/Programación-Datos/Unidad 2.md"
+                "file": "1er Cuatrimestre/Sistemas Operativos/Trabajo Práctico.md"
               }
             }
           }
@@ -87,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 259.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "4eb9609fc85340f7",
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
+                "file": "1er Cuatrimestre/Sistemas Operativos/Trabajo Práctico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
+                "file": "1er Cuatrimestre/Sistemas Operativos/Trabajo Práctico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1er Cuatrimestre/Programación-Datos/Unidad 2.md"
+                "file": "1er Cuatrimestre/Sistemas Operativos/Trabajo Práctico.md"
               }
             }
           }
@@ -163,15 +164,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "e8308a5da626955d",
+  "active": "0ee08613b8f40f4e",
   "lastOpenFiles": [
-    "1er Cuatrimestre/Programación-Datos/Unidad 3.md",
-    "1er Cuatrimestre/Programación-Datos/Unidad 2.md~",
-    "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
-    "1er Cuatrimestre/Programación-Datos/Unidad 3.md~",
-    "1er Cuatrimestre/Programación-Datos/Unidad 1.md",
-    "1er Cuatrimestre/Sistemas Operativos/Unidad 1.md",
     "1er Cuatrimestre/Sistemas Operativos/Tp.md",
+    "1er Cuatrimestre/Sistemas Operativos/Trabajo Práctico.md",
+    "1er Cuatrimestre/Sistemas Operativos/Trabajo Práctico.md~",
+    "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
+    "1er Cuatrimestre/Programación-Datos/Unidad 3.md",
+    "1er Cuatrimestre/Programación-Datos/Unidad 1.md",
+    "1er Cuatrimestre/Programación-Datos/Unidad 2.md~",
+    "1er Cuatrimestre/Programación-Datos/Unidad 3.md~",
+    "1er Cuatrimestre/Sistemas Operativos/Unidad 1.md",
     "1er Cuatrimestre/Programación-Datos/t1 1.0.md",
     "1er Cuatrimestre/Programación-Datos/tp1.md",
     "1er Cuatrimestre/Programación-Datos/Unidad 1.md~",
@@ -203,13 +206,11 @@
     "nivelación/Programación/Nivelación/Módulo 2.md",
     "nivelación/Programación/Nivelación/Módulo 1.md",
     "nivelación/Lab. Computación/Nivelación/Módulo 4.md",
-    "nivelación/Lab. Computación/Nivelación/Módulo 3.md",
     "1er Cuatrimestre/Organización Empresarial",
     "1er Cuatrimestre/Matemática",
     "1er Cuatrimestre/Sistemas Operativos",
     "Sin título",
     "1er Cuatrimestre/Programación-Lógica",
-    "nivelación",
     "archivos/Pasted image 20240224003447.png",
     "Sin título 1.canvas"
   ]

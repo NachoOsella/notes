@@ -10,10 +10,11 @@
   "displayMetadata": false,
   "debug": false,
   "isTimestamp": false,
+  "enabledCss": false,
   "prevConfig": {
     "pageSize": "Custom",
     "marginType": "0",
-    "showTitle": true,
+    "showTitle": false,
     "open": false,
     "scale": 100,
     "landscape": false,
@@ -23,8 +24,9 @@
     "marginRight": "0",
     "displayHeader": false,
     "displayFooter": false,
+    "cssSnippet": "0",
     "pageSise": "A4",
     "pageWidth": "210",
-    "pageHeight": "1200"
+    "pageHeight": "3150"
   }
 }

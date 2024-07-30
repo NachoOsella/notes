@@ -27,4 +27,4 @@
 
 **d. Evento que genera el inicio del proceso:** Recepción de un pedido del cliente.
 
-**e. Resultado de valor del proceso:** Entrega del pedido correcto y en tiempo al cliente, con la facturación adecuada.q
+**e. Resultado de valor del proceso:** Entrega del pedido correcto y en tiempo al cliente, con la facturación adecuada.

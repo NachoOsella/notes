@@ -30,7 +30,7 @@ Es una señal eléctrica de forma rectangular, es decir una sucesión indefinida
 
 Los registros son *elementos de la memoria de acceso rápido* que se encuentran dentro del procesador, existen 5 tipos de registros según su utilidad:
 1. **Registros de Propósito General:** Suelen utilizarse como operandos en las instrucciones del ensamblador.
-2. **Registros de Datos:** Se pueden diferenciar por le formato y le tamaño de los datos que almacenan.
+2. **Registros de Datos:** Se pueden diferenciar por el formato y el tamaño de los datos que almacenan.
 3. **Registros de Direccionamiento:** Se utilizan para acceder a memoria y pueden almacenar direcciones o índices.
 4. **Registros de Instrucción:**
 	- *Program Counter (pc):* Contiene la siguiente dirección de la instrucción en que hay que leer en memoria.

@@ -38,7 +38,7 @@
 ## ADMINISTRACIÓN
 
 ### Estrategias de Administración
-Las estrategias de administración se refieren a los planes y métodos utilizados por una organización para alcanzar sus objetivos y optimizar sus recursos. Incluyen la planificación estratégica, la organización de recursos, la dirección de equipos, y el control de actividades para asegurar el cumplimiento de las metas organizacionales.
+Serie de estrategias y prácticas para gestionar, optimizar y asegurar el correcto funcionamiento del sistema y los recursos de hardware asociados.
 
 ### Funciones del Administrador de Memoria
 Las funciones del administrador de memoria incluyen:
@@ -120,17 +120,17 @@ La nomenclatura de los archivos se refiere a las reglas y convenciones para nomb
     - *Desventajas:* Más complejo que el acceso secuencial puro, pero más eficiente.
 
 ### Atributo de Archivo
-Un atributo de archivo es una propiedad que define el comportamiento de un archivo. Ejemplos de atributos y sus significados:
-1. **Read-Only (R):** El archivo solo puede ser leído, no modificado.
-2. **Hidden (H):** El archivo no es visible en listados normales.
-3. **System (S):** El archivo es utilizado por el sistema operativo.
-4. **Archive (A):** El archivo ha sido modificado desde el último respaldo.
-5. **Compressed (C):** El archivo está comprimido.
-6. **Encrypted (E):** El archivo está cifrado para seguridad.
-7. **Temporary (T):** El archivo es temporal.
-8. **Sparse File:** El archivo contiene secciones sin datos.
-9. **Offline (O):** El archivo está almacenado en un medio fuera de línea.
-10. **Not Content Indexed:** El archivo no debe ser indexado por el servicio de indexado del sistema.
+- **Nombre**: El nombre del archivo, que es una cadena de caracteres que identifica el archivo en el sistema de archivos.
+- **Extensión**: La parte del nombre del archivo que sigue al punto (.), que generalmente indica el tipo de archivo (por ejemplo, `.txt`, `.jpg`).
+- **Tamaño**: La cantidad de espacio en disco que ocupa el archivo, medida en bytes, kilobytes (KB), megabytes (MB), etc.
+- **Fecha de Creación**: La fecha y hora en que el archivo fue creado.
+- **Fecha de Modificación**: La fecha y hora en que el archivo fue modificado por última vez.
+- **Fecha de Acceso**: La fecha y hora en que el archivo fue accedido por última vez (por ejemplo, abierto o leído).
+- **Permisos**: Los permisos que determinan quién puede leer, escribir o ejecutar el archivo. Estos permisos suelen estar especificados para el propietario, el grupo y otros usuarios.
+- **Propietario**: El usuario que posee el archivo y tiene control sobre él.
+- **Grupo**: El grupo de usuarios al que pertenece el archivo, lo que puede afectar los permisos de acceso.
+- **Atributo de Solo Lectura**: Un atributo que indica que el archivo no puede ser modificado o borrado, solo leído.
+- **Atributo Oculto**: Un atributo que oculta el archivo de las vistas normales de los usuarios en el sistema de archivos.
 
 ### Operaciones con Archivos
 1. **Crear:** Generar un nuevo archivo.

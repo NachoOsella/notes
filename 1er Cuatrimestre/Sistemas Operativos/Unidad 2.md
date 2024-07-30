@@ -34,40 +34,17 @@ la computadora. La interfaz de usuario se encarga
 de mostrar ventanas, botones, menús, etc.
 
 ### Funciones de un sistema operativo
-1. *Gestión de procesos:* El sistema operativo se
-encarga de asignar los recursos de la computadora a
-los distintos programas que se están ejecutando, de
-manera que todos los programas puedan ejecutarse de
-manera eficiente.
+1. *Gestión de procesos:* El sistema operativo se encarga de asignar los recursos de la computadora a los distintos programas que se están ejecutando, de manera que todos los programas puedan ejecutarse de manera eficiente.
 
-2. *Gestión de memoria:* El sistema operativo se
-encarga de asignar la memoria de la computadora a
-los distintos programas que se están ejecutando, de
-manera que todos los programas puedan acceder a la
-memoria de manera eficiente.
+2. *Gestión de memoria:* El sistema operativo se encarga de asignar la memoria de la computadora a los distintos programas que se están ejecutando, de manera que todos los programas puedan acceder a la memoria de manera eficiente.
 
-3. *Gestión de dispositivos:* El sistema operativo se
-encarga de manejar los dispositivos de entrada y
-salida de la computadora, de manera que los
-programas puedan interactuar con ellos de manera
-eficiente.
+3. *Gestión de dispositivos:* El sistema operativo se encarga de manejar los dispositivos de entrada y salida de la computadora, de manera que los programas puedan interactuar con ellos de manera eficiente.
 
-4. *Gestión de archivos:* El sistema operativo se
-encarga de manejar los archivos en la computadora,
-de manera que los programas puedan acceder a ellos
-de manera eficiente.
+4. *Gestión de archivos:* El sistema operativo se encarga de manejar los archivos en la computadora, de manera que los programas puedan acceder a ellos de manera eficiente.
 
-5. *Administración del cpu:* El sistema operativo se
-encarga de asignar el procesador a los distintos
-programas que se están ejecutando, de manera que
-todos los programas puedan ejecutarse de manera
-eficiente.
+5. *Administración del cpu:* El sistema operativo se encarga de asignar el procesador a los distintos programas que se están ejecutando, de manera que todos los programas puedan ejecutarse de manera eficiente.
 
-6. *Permisos de acceso:* El sistema operativo se
-encarga de asignar permisos de acceso a los
-distintos programas y usuarios que están utilizando
-la computadora, de manera que se pueda controlar
-quién puede acceder a qué recursos.
+6. *Permisos de acceso:* El sistema operativo se encarga de asignar permisos de acceso a los distintos programas y usuarios que están utilizando la computadora, de manera que se pueda controlar quién puede acceder a qué recursos.
 
 ### Tipos de Sistemas Operativos
 **Según el número de usuarios**

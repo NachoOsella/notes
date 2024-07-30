@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "52a843c5852c84a7",
+        "id": "6b223c58cf2b00d5",
         "type": "tabs",
         "children": [
           {
-            "id": "fa4d8bd33d281b98",
+            "id": "fd136db734c2ece1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 2.md",
-                "mode": "preview",
+                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 2.md"
+                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 1.md"
               }
             }
           }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 2.md",
+                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 2.md",
+                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 2.md"
+                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 1.md"
               }
             }
           }
@@ -164,8 +164,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "fa4d8bd33d281b98",
+  "active": "fd136db734c2ece1",
   "lastOpenFiles": [
+    "Vim Motions.md",
     "cualquiera.md",
     "1er Cuatrimestre/Organización Empresarial/Unidad 2.md",
     "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
@@ -186,7 +187,6 @@
     "1er Cuatrimestre/Organización Empresarial/TP1.md",
     "1er Cuatrimestre/Organización Empresarial/Parcial 2.md",
     "1er Cuatrimestre/Organización Empresarial/Parcial 2.md~",
-    "Vim Motions.md",
     "Unidad 1.md",
     "Sin título",
     "1er Cuatrimestre/Sistemas Operativos/Trabajo Práctico.md",

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
-                "mode": "source",
+                "file": "1er Cuatrimestre/Organización Empresarial/Parcial 2.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -79,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 1.md"
+                "file": "1er Cuatrimestre/Organización Empresarial/Parcial 2.md"
               }
             }
           }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
+                "file": "1er Cuatrimestre/Organización Empresarial/Parcial 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
+                "file": "1er Cuatrimestre/Organización Empresarial/Parcial 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Unidad 1.md"
+                "file": "1er Cuatrimestre/Organización Empresarial/Parcial 2.md"
               }
             }
           }
@@ -166,10 +166,13 @@
   },
   "active": "fd136db734c2ece1",
   "lastOpenFiles": [
+    "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
+    "1er Cuatrimestre/Organización Empresarial/Unidad 2.md",
+    "1er Cuatrimestre/Organización Empresarial/Parcial 2.md",
+    "1er Cuatrimestre/Organización Empresarial/TP1.md",
+    "1er Cuatrimestre/Organización Empresarial/pruebas.md",
     "Vim Motions.md",
     "cualquiera.md",
-    "1er Cuatrimestre/Organización Empresarial/Unidad 2.md",
-    "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
     "1er Cuatrimestre/Sistemas Operativos/TP 2 Docker.md",
     "1er Cuatrimestre/Sistemas Operativos/Tp.md",
     "1er Cuatrimestre/Sistemas Operativos/internet.md",
@@ -184,8 +187,6 @@
     "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
     "1er Cuatrimestre/Programación-Datos/Unidad 1.md",
     "1er Cuatrimestre/Programación-Lógica/Unidad 1.md",
-    "1er Cuatrimestre/Organización Empresarial/TP1.md",
-    "1er Cuatrimestre/Organización Empresarial/Parcial 2.md",
     "1er Cuatrimestre/Organización Empresarial/Parcial 2.md~",
     "Unidad 1.md",
     "Sin título",
@@ -198,7 +199,6 @@
     "1er Cuatrimestre/Programación-Datos/t1 1.0.md",
     "1er Cuatrimestre/Programación-Datos/tp1.md",
     "1er Cuatrimestre/Programación-Datos/Unidad 1.md~",
-    "1er Cuatrimestre/Organización Empresarial/pruebas.md",
     "1er Cuatrimestre/Sistemas Operativos/Unidad 1.md~",
     "archivos/Pasted image 20240503121128.png",
     "Sin título.canvas",

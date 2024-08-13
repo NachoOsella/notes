@@ -41,8 +41,7 @@ Al observar el sistema organizacional por dentro se pueden observar diferentes f
 ---
 ## Definición Exacta
 
->💡 **Organización:** es un sistema integrado por un conjunto de
-elementos interdependientes que se relacionan entre sí para formar un todo unitario, cuyos actos y funciones se organizan para alcanzar un fin común, y que se interrelaciona con el medio externo o entorno.
+>💡 **Organización:** es un sistema integrado por un conjunto de elementos interdependientes que se relacionan entre sí para formar un todo unitario, cuyos actos y funciones se organizan para alcanzar un fin común, y que se interrelaciona con el medio externo o entorno.
 
 ---
 ## Misión

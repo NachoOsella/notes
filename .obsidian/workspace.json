@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6b223c58cf2b00d5",
+        "id": "79ddbbaf1a556efd",
         "type": "tabs",
         "children": [
           {
-            "id": "fd136db734c2ece1",
+            "id": "99cab337d69be894",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Parcial 2.md",
+                "file": "3er Cuatrimestre/MSI/Parcial.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Parcial"
             }
           }
         ]
@@ -39,8 +41,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -55,7 +60,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
             }
           },
           {
@@ -63,7 +70,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
             }
           }
         ]
@@ -79,15 +88,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Parcial 2.md"
-              }
+                "file": "3er Cuatrimestre/MSI/Parcial.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Parcial"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 259.5004348754883
+    "width": 259.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "4eb9609fc85340f7",
@@ -103,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Parcial 2.md",
+                "file": "3er Cuatrimestre/BDII/Primer Parcial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +126,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Primer Parcial"
             }
           },
           {
@@ -120,10 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Parcial 2.md",
+                "file": "2do Cuatrimestre/Final ChatGPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Final ChatGPT"
             }
           },
           {
@@ -133,8 +152,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
             }
           },
           {
@@ -143,12 +166,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1er Cuatrimestre/Organización Empresarial/Parcial 2.md"
-              }
+                "file": "2do Cuatrimestre/Final ChatGPT.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Final ChatGPT"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -157,49 +184,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "callout-manager:Insert Callout": false,
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "fd136db734c2ece1",
+  "active": "99cab337d69be894",
   "lastOpenFiles": [
-    "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
-    "1er Cuatrimestre/Organización Empresarial/Unidad 2.md",
-    "1er Cuatrimestre/Organización Empresarial/Parcial 2.md",
-    "1er Cuatrimestre/Organización Empresarial/TP1.md",
-    "1er Cuatrimestre/Organización Empresarial/pruebas.md",
+    "3er Cuatrimestre/PIII/Parcial Front.md",
+    "3er Cuatrimestre/MSI/Parcial.md",
+    "3er Cuatrimestre/PIII/Front 2.md",
     "Vim Motions.md",
-    "cualquiera.md",
+    "ramas.md",
+    "mierda.md",
+    "archivos/code.txt",
+    "3er Cuatrimestre/BDII/Primer Parcial.md",
+    "ejercicios js.md",
+    "more js exercices.md",
+    "3er Cuatrimestre/MSI/Lavanderia.md",
+    "3er Cuatrimestre/MSI/MSI.md",
+    "3er Cuatrimestre/MSI",
+    "3er Cuatrimestre/Untitled.md",
+    "3er Cuatrimestre/PIII",
+    "1er Cuatrimestre/Organización Empresarial/Unidad 2.md",
+    "3er Cuatrimestre/BDII",
+    "3er Cuatrimestre",
+    "1er Cuatrimestre/Organización Empresarial/TP1.md",
+    "archivos/Diagrama sin tбtulo.drawio.png",
+    "1er Cuatrimestre/Sistemas Operativos/Unidad 2.md",
     "1er Cuatrimestre/Sistemas Operativos/TP 2 Docker.md",
     "1er Cuatrimestre/Sistemas Operativos/Tp.md",
     "1er Cuatrimestre/Sistemas Operativos/internet.md",
-    "1er Cuatrimestre/Sistemas Operativos/Unidad 2.md",
+    "2do Cuatrimestre/final DB1.md",
+    "2do Cuatrimestre/Final ChatGPT.md",
+    "2do Cuatrimestre/Final BD1.md",
+    "2do Cuatrimestre",
+    "1er Cuatrimestre/Organización Empresarial/Parcial 2.md",
+    "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
+    "1er Cuatrimestre/Organización Empresarial/pruebas.md",
+    "cualquiera.md",
     "1er Cuatrimestre/Sistemas Operativos/Unidad 1.md",
-    "1er Cuatrimestre/Matemática/Sin título.md",
-    "nivelación/Lab. Computación/Nivelación/Módulo 4.md",
-    "nivelación/Lab. Computación/Nivelación/Módulo 3.md",
-    "nivelación/Lab. Computación/Nivelación/Módulo 2.md",
-    "nivelación/Lab. Computación/Nivelación/Módulo 1.md",
-    "1er Cuatrimestre/Programación-Datos/Unidad 3.md",
-    "1er Cuatrimestre/Programación-Datos/Unidad 2.md",
-    "1er Cuatrimestre/Programación-Datos/Unidad 1.md",
-    "1er Cuatrimestre/Programación-Lógica/Unidad 1.md",
     "1er Cuatrimestre/Organización Empresarial/Parcial 2.md~",
-    "Unidad 1.md",
     "Sin título",
-    "1er Cuatrimestre/Sistemas Operativos/Trabajo Práctico.md",
     "1er Cuatrimestre/Sistemas Operativos/internet.md~",
-    "1er Cuatrimestre/Organización Empresarial/Enunciados U2.md",
     "1er Cuatrimestre/Sistemas Operativos/Trabajo Práctico.md~",
-    "1er Cuatrimestre/Programación-Datos/Unidad 2.md~",
-    "1er Cuatrimestre/Programación-Datos/Unidad 3.md~",
-    "1er Cuatrimestre/Programación-Datos/t1 1.0.md",
-    "1er Cuatrimestre/Programación-Datos/tp1.md",
-    "1er Cuatrimestre/Programación-Datos/Unidad 1.md~",
-    "1er Cuatrimestre/Sistemas Operativos/Unidad 1.md~",
     "archivos/Pasted image 20240503121128.png",
     "Sin título.canvas",
     "archivos/Pasted image 20240413163220.png",
@@ -210,9 +240,6 @@
     "archivos/Pasted image 20240410183409.png",
     "archivos/Diagrama sin título.drawio.png",
     "archivos/Pasted image 20240320195648.png",
-    "1er Cuatrimestre/Organización Empresarial",
-    "1er Cuatrimestre/Matemática",
-    "archivos/Pasted image 20240224003447.png",
     "Sin título 1.canvas"
   ]
 }

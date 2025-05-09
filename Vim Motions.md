@@ -64,3 +64,11 @@
 - `%`: Mover el cursor al paréntesis, corchete o llave coincidente.
 - `*`: Buscar la palabra bajo el cursor hacia adelante.
 - `#`: Buscar la palabra bajo el cursor hacia atrás.
+
+
+# Movimientos por Archivos
+
+## Navegación entre archivos
+- `:e {ruta}`: Abrir un archivo en una nueva ventana.
+- `:sp {ruta}`: Abrir un archivo en una nueva pestaña.
+- 

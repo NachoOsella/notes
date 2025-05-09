@@ -1,0 +1,104 @@
+# Explicación de la Clase `Partida` (Java)
+
+## Propósito General y Rol en el Sistema
+
+La clase `Partida` en Java representa una **sesión única y específica del juego TEG** dentro del sistema. Su propósito principal es encapsular y gestionar toda la información y el estado relacionados con una instancia particular del juego, desde su creación hasta su finalización.
+
+En el contexto de la aplicación TEG (Front-end y Back-end), esta clase actúa como el **contenedor central** para una partida en curso o una partida histórica. Mantiene la coherencia de los datos del juego, controla el flujo del mismo (turnos, estados) y sirve como punto de acceso para interactuar con los elementos específicos de esa partida (jugadores, mapa, eventos, configuración).
+
+Podría existir en el sistema porque necesitamos modelar y diferenciar múltiples juegos que pueden estar ocurriendo simultáneamente o que se han jugado en el pasado. Sin una clase como `Partida`, sería imposible gestionar y almacenar la información de distintas sesiones de juego de forma organizada.
+
+## Atributos Principales (Basados en el ERD)
+
+La clase `Partida` contendría atributos (campos o variables de instancia) que mapean directamente a las columnas de la tabla `PARTIDAS` y sus relaciones:
+
+*   `idPartida`: Identificador único de la partida (equivalente a `PK id_partida`).
+*   `configuracion`: Una referencia a un objeto `ConfiguracionPartida` que contiene las reglas específicas y ajustes de esta partida (equivalente a la relación con `FK id_configuracion`).
+*   `estado`: El estado actual de la partida (Ej: "NO_INICIADA", "EN_CURSO", "PAUSADA", "FINALIZADA") (equivalente a `estado`).
+*   `fechaCreacion`: Timestamp de cuándo se creó la partida (equivalente a `fechaCreacion`).
+*   `fechaUltimaActividad`: Timestamp de la última acción relevante ocurrida en la partida (equivalente a `fechaUltimaActividad`).
+*   `tiempoMaximoPorTurno`: Duración máxima permitida para el turno de un jugador en esta partida (equivalente a `tiempoMaximoPorTurno`). Podría estar aquí o derivarse de `configuracion`.
+*   `descripcion`: Una descripción opcional para identificar la partida (equivalente a `descripcion`).
+*   `jugadoresPartida`: Una colección (lista, set, mapa) de objetos `JugadorPartida` que representan a los participantes (humanos o bots) específicos de *esta* partida, incluyendo su estado, color, ejércitos, etc. (representa la relación con `JUGADORES_PARTIDAS`).
+*   `eventos`: Posiblemente una lista de objetos `Evento` que registran las acciones importantes ocurridas durante la partida (representa la relación con `EVENTOS`).
+*   `mapaEstado`: Podría contener una representación del estado actual del tablero (qué jugador controla qué país y con cuántos ejércitos), posiblemente a través de referencias a objetos `Pais` y `JugadorPartida`.
+
+## Métodos Principales y Funcionalidades
+
+Los métodos de la clase `Partida` definirían las operaciones y lógicas que se pueden realizar sobre una sesión de juego.
+
+### Creación y Ciclo de Vida
+
+*   **`public Partida(ConfiguracionPartida config, List<Jugador> jugadoresIniciales)` (Constructor):**
+    *   **Qué hace:** Crea una nueva instancia de `Partida`. Inicializa sus atributos básicos como el ID (podría generarse aquí o asignarse después), la configuración, la fecha de creación, y establece el estado inicial (ej: "NO_INICIADA"). Podría también crear los objetos `JugadorPartida` correspondientes a partir de la lista de `Jugador`es iniciales.
+    *   **Por qué existe:** Para instanciar y preparar una nueva sesión de juego antes de que comience formalmente.
+
+*   **`public void iniciarPartida()`:**
+    *   **Qué hace:** Marca el comienzo oficial del juego. Cambia el estado a "EN_CURSO". Realiza las acciones iniciales requeridas por las reglas del TEG, como el reparto inicial de países y objetivos secretos a los `JugadorPartida`, la asignación del primer turno, y posiblemente la distribución inicial de ejércitos.
+    *   **Por qué existe:** Para transicionar la partida de un estado de preparación a un estado activo de juego, aplicando la lógica inicial del reglamento.
+
+*   **`public void pausarPartida()`:**
+    *   **Qué hace:** Cambia el estado de la partida a "PAUSADA". Podría detener temporizadores de turno si existen.
+    *   **Por qué existe:** Para permitir a los jugadores detener temporalmente el juego y reanudarlo más tarde (Funcionalidad Requerimiento 4b).
+
+*   **`public void reanudarPartida()`:**
+    *   **Qué hace:** Cambia el estado de "PAUSADA" de vuelta a "EN_CURSO". Podría reiniciar temporizadores de turno.
+    *   **Por qué existe:** Para continuar una partida que fue previamente pausada.
+
+*   **`public void finalizarPartida(JugadorPartida ganador)`:**
+    *   **Qué hace:** Marca el final del juego. Cambia el estado a "FINALIZADA". Registra quién fue el jugador ganador. Podría realizar tareas de limpieza o cálculo de estadísticas finales.
+    *   **Por qué existe:** Para concluir formalmente la sesión de juego cuando se cumple una condición de victoria.
+
+### Gestión de Turnos y Jugadores
+
+*   **`public JugadorPartida getJugadorActual()`:**
+    *   **Qué hace:** Devuelve el objeto `JugadorPartida` cuyo turno está activo en este momento.
+    *   **Por qué existe:** Para saber qué jugador tiene el control y puede realizar acciones.
+
+*   **`public void avanzarTurno()`:**
+    *   **Qué hace:** Termina el turno del jugador actual y pasa el control al siguiente jugador en la secuencia. Actualiza el estado interno para reflejar quién es ahora el `jugadorActual`. Podría también resetear el temporizador de turno.
+    *   **Por qué existe:** Para implementar la mecánica fundamental de turnos del juego.
+
+*   **`public List<JugadorPartida> getJugadoresPartida()`:**
+    *   **Qué hace:** Devuelve la lista o conjunto de todos los objetos `JugadorPartida` que participan en esta partida.
+    *   **Por qué existe:** Para poder acceder a la información de todos los participantes (sus colores, objetivos, estado -activo/eliminado-, etc.).
+
+### Acciones del Juego y Validación
+
+*   **`public boolean validarAccion(AccionJuego accion)`:**
+    *   **Qué hace:** Recibe un objeto que representa una acción que el jugador actual quiere realizar (ej: atacar, reagrupar, canjear tarjetas) y verifica si esa acción es válida según las reglas del TEG y el estado actual de la partida (ej: ¿Tiene suficientes ejércitos para atacar? ¿Es su fase de ataque? ¿Son países limítrofes?).
+    *   **Por qué existe:** Para asegurar que solo se ejecuten movimientos permitidos por las reglas, manteniendo la integridad del juego.
+
+*   **`public ResultadoAccion ejecutarAccion(AccionJuego accion)`:**
+    *   **Qué hace:** Si la acción es válida (posiblemente llama a `validarAccion` internamente o asume que ya fue validada), la ejecuta. Esto implica modificar el estado de la partida: cambiar la posesión de países, actualizar el número de ejércitos, asignar tarjetas, eliminar jugadores, etc. Devuelve un objeto `ResultadoAccion` que describe lo que sucedió (ej: ataque exitoso, país conquistado, tarjetas canjeadas). También actualiza `fechaUltimaActividad`.
+    *   **Por qué existe:** Es el método central para que el juego progrese a través de las acciones de los jugadores.
+
+*   **`public boolean verificarCondicionVictoria()`:**
+    *   **Qué hace:** Comprueba si alguno de los `JugadorPartida` ha cumplido su objetivo secreto o si se ha cumplido el objetivo común.
+    *   **Por qué existe:** Para detectar cuándo la partida debe terminar porque un jugador ha ganado.
+
+### Gestión de Estado y Datos
+
+*   **`public EstadoPartida getEstado()`:**
+    *   **Qué hace:** Devuelve el estado actual de la partida ("EN_CURSO", "FINALIZADA", etc.).
+    *   **Por qué existe:** Para que otras partes del sistema (como la interfaz de usuario) puedan saber en qué fase se encuentra el juego.
+
+*   **`public void guardarEstado()`:**
+    *   **Qué hace:** Reúne toda la información relevante del estado actual de la partida (atributos, estado de los jugadores, estado del mapa) y la persiste, probablemente interactuando con una capa de base de datos o un sistema de archivos.
+    *   **Por qué existe:** Para cumplir con el requerimiento de guardado automático o manual de partidas (Requerimiento 4).
+
+*   **`(static) public Partida cargarEstado(long idPartida)`:**
+    *   **Qué hace:** (Podría ser un método estático en `Partida` o estar en una clase de servicio). Recupera la información de una partida guardada (usando su `idPartida`) desde la persistencia y reconstruye el objeto `Partida` con todo su estado.
+    *   **Por qué existe:** Para cumplir con el requerimiento de cargar partidas guardadas (Requerimiento 4).
+
+*   **`public void registrarEvento(Evento evento)`:**
+    *   **Qué hace:** Añade un objeto `Evento` (que describe una acción significativa, como un ataque, refuerzo, etc.) a la lista de eventos de la partida.
+    *   **Por qué existe:** Para mantener un historial de lo que ha sucedido en la partida, útil para logs, repeticiones o depuración.
+
+### Métodos de Acceso (Getters/Setters)
+
+*   **`public long getIdPartida()`**, **`public ConfiguracionPartida getConfiguracion()`**, **`public LocalDateTime getFechaCreacion()`**, etc.
+    *   **Qué hacen:** Son métodos estándar (getters) para acceder a los valores de los atributos privados de la clase. Podrían existir setters para algunos atributos si es necesario modificar su estado después de la creación (aunque muchos deberían ser inmutables o modificados a través de métodos específicos como `avanzarTurno` o `ejecutarAccion`).
+    *   **Por qué existen:** Para permitir que otras partes del sistema consulten el estado y las propiedades de la partida de forma controlada (encapsulamiento).
+
+En resumen, la clase `Partida` es el corazón de la lógica de una sesión de juego TEG, orquestando el flujo, manteniendo el estado y aplicando las reglas a través de sus métodos.

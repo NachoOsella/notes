@@ -4,7 +4,7 @@
   "nativeMenus": false,
   "translucency": false,
   "interfaceFontFamily": "JetBrainsMono Nerd Font,Cascadia Code",
-  "baseFontSize": 23,
+  "baseFontSize": 21,
   "textFontFamily": "JetBrainsMono Nerd Font,Cascadia Code",
   "monospaceFontFamily": "JetBrainsMono Nerd Font,Cascadia Code",
   "enabledCssSnippets": [

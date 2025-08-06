@@ -101,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5004348754883,
-    "collapsed": true
+    "width": 259.5004348754883
   },
   "right": {
     "id": "4eb9609fc85340f7",
@@ -184,17 +183,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "callout-manager:Insert Callout": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "callout-manager:Insert Callout": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "99cab337d69be894",
   "lastOpenFiles": [
-    "3er Cuatrimestre/PIII/Parcial Front.md",
+    "3er Cuatrimestre/MSI/F1.md",
+    "3er Cuatrimestre/MSI/Lavanderia.md",
+    "3er Cuatrimestre/MSI/MSI.md",
     "3er Cuatrimestre/MSI/Parcial.md",
+    "3er Cuatrimestre/MSI/Parcial 2.md",
+    "2do Cuatrimestre/final DB1.md",
+    "3er Cuatrimestre/BDII/TP.md",
+    "3er Cuatrimestre/PIII/Parcial Back.md",
+    "3er Cuatrimestre/PIII/Parcial Front.md",
     "3er Cuatrimestre/PIII/Front 2.md",
     "Vim Motions.md",
     "ramas.md",
@@ -203,8 +209,6 @@
     "3er Cuatrimestre/BDII/Primer Parcial.md",
     "ejercicios js.md",
     "more js exercices.md",
-    "3er Cuatrimestre/MSI/Lavanderia.md",
-    "3er Cuatrimestre/MSI/MSI.md",
     "3er Cuatrimestre/MSI",
     "3er Cuatrimestre/Untitled.md",
     "3er Cuatrimestre/PIII",
@@ -217,15 +221,10 @@
     "1er Cuatrimestre/Sistemas Operativos/TP 2 Docker.md",
     "1er Cuatrimestre/Sistemas Operativos/Tp.md",
     "1er Cuatrimestre/Sistemas Operativos/internet.md",
-    "2do Cuatrimestre/final DB1.md",
     "2do Cuatrimestre/Final ChatGPT.md",
     "2do Cuatrimestre/Final BD1.md",
     "2do Cuatrimestre",
     "1er Cuatrimestre/Organización Empresarial/Parcial 2.md",
-    "1er Cuatrimestre/Organización Empresarial/Unidad 1.md",
-    "1er Cuatrimestre/Organización Empresarial/pruebas.md",
-    "cualquiera.md",
-    "1er Cuatrimestre/Sistemas Operativos/Unidad 1.md",
     "1er Cuatrimestre/Organización Empresarial/Parcial 2.md~",
     "Sin título",
     "1er Cuatrimestre/Sistemas Operativos/internet.md~",
